@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -195,17 +195,6 @@
             justify-content: center;
         }
 
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(135deg, rgba(26,26,26,0.7) 0%, rgba(58,58,58,0.7) 50%, rgba(139,115,85,0.7) 100%);
-            z-index: 1;
-        }
-
         .hero-bg-img {
             position: absolute;
             top: 0;
@@ -216,6 +205,17 @@
             height: 100%;
             object-fit: cover;
             z-index: 0;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(26,26,26,0.7) 0%, rgba(58,58,58,0.7) 50%, rgba(139,115,85,0.7) 100%);
+            z-index: 1;
         }
 
         .hero-content {
@@ -301,7 +301,6 @@
             border-radius: 10px;
             box-shadow: 0 10px 40px rgba(0,0,0,0.15);
             display: block;
-            background: linear-gradient(135deg, #3d2817 0%, #5c4a3a 50%, #4a3d2f 100%);
         }
 
         /* SERVICES SECTION */
@@ -680,7 +679,7 @@
     <!-- HEADER -->
     <header>
         <div class="header-container">
-            <div class="logo">âœ‚ï¸ PH Barbershop</div>
+            <div class="logo">✂️ PH Barbershop</div>
             <nav>
                 <a href="#about">About</a>
                 <a href="#services">Services</a>
@@ -789,22 +788,22 @@
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&q=80" alt="John M." class="testimonial-image">
-                    <div class="client-name">ðŸ‘¨ John M.</div>
-                    <div class="stars">â­â­â­â­â­</div>
+                    <div class="client-name">👨 John M.</div>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
                     <div class="testimonial-text">"Best barber in town! The cut is always perfect and the service is outstanding. I've been coming here for 3 years!"</div>
                 </div>
 
                 <div class="testimonial-card">
                     <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&q=80" alt="David L." class="testimonial-image">
-                    <div class="client-name">ðŸ‘¨ David L.</div>
-                    <div class="stars">â­â­â­â­â­</div>
+                    <div class="client-name">👨 David L.</div>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
                     <div class="testimonial-text">"Professional, clean, and efficient. The barbers really know their craft. Worth every penny!"</div>
                 </div>
 
                 <div class="testimonial-card">
                     <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&q=80" alt="Michael R." class="testimonial-image">
-                    <div class="client-name">ðŸ‘¨ Michael R.</div>
-                    <div class="stars">â­â­â­â­â­</div>
+                    <div class="client-name">👨 Michael R.</div>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
                     <div class="testimonial-text">"Excellent attention to detail. My barber remembers exactly how I like my cut. Highly recommend!"</div>
                 </div>
             </div>
@@ -817,7 +816,7 @@
             <h2>Visit Us</h2>
             <div class="location-content">
                 <div class="location-info">
-                    <h3>ðŸ“ Location & Hours</h3>
+                    <h3>📍 Location & Hours</h3>
                     <p><strong>Address:</strong> 123 Grooming Avenue, Downtown, USA</p>
                     <p><strong>Phone:</strong> (555) 123-4567</p>
                     <p><strong>Email:</strong> <a href="mailto:info@phbarbershop.com">info@phbarbershop.com</a></p>
@@ -827,7 +826,7 @@
                     <p><strong>Monday - Friday:</strong> 9:00 AM - 7:00 PM</p>
                     <p><strong>Saturday:</strong> 9:00 AM - 6:00 PM</p>
                     <p><strong>Sunday:</strong> 11:00 AM - 5:00 PM</p>
-                    <p style="margin-top: 20px; color: var(--accent); font-weight: bold;">âœ¨ Walk-ins Welcome!</p>
+                    <p style="margin-top: 20px; color: var(--accent); font-weight: bold;">✨ Walk-ins Welcome!</p>
                 </div>
                 <div class="location-map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1234567890!2d-74.0060!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a322f5e1a3b%3A0x1234567890!2s123%20Grooming%20Avenue%2C%20Downtown!5e0!3m2!1sen!2sus!4v1700000000000" width="100%" height="350" style="border:none;border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -907,15 +906,15 @@
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h3>ðŸ“ CONTACT US</h3>
+                <h3>📍 CONTACT US</h3>
                 <p>Address: 123 Grooming Avenue, USA</p>
-                <p>ðŸ“ž (555) 123-4567</p>
-                <p>âœ‰ï¸ <a href="mailto:info@phbarbershop.com">info@phbarbershop.com</a></p>
-                <p>ðŸ’¬ WhatsApp: (555) 123-4567</p>
+                <p>📞 (555) 123-4567</p>
+                <p>✉️ <a href="mailto:info@phbarbershop.com">info@phbarbershop.com</a></p>
+                <p>💬 WhatsApp: (555) 123-4567</p>
             </div>
 
             <div class="footer-section">
-                <h3>ðŸ“± FOLLOW US</h3>
+                <h3>📱 FOLLOW US</h3>
                 <a href="#">Instagram</a>
                 <a href="#">Facebook</a>
                 <a href="#">Twitter</a>
@@ -923,7 +922,7 @@
             </div>
 
             <div class="footer-section">
-                <h3>âš¡ QUICK LINKS</h3>
+                <h3>⚡ QUICK LINKS</h3>
                 <a href="#about">About Us</a>
                 <a href="#services">Services</a>
                 <a href="#testimonials">Reviews</a>
@@ -958,17 +957,17 @@
         </div>
     </div>
 
-    <div class="device-indicator">ðŸ’» DESKTOP</div>
-    <button class="screenshot-btn" onclick="takeScreenshot()">ðŸ“¸ SCREENSHOT</button>
+    <div class="device-indicator">💻 DESKTOP</div>
+    <button class="screenshot-btn" onclick="takeScreenshot()">📸 SCREENSHOT</button>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script>
         function updateDeviceIndicator() {
             const indicator = document.querySelector('.device-indicator');
             if (window.innerWidth <= 768) {
-                indicator.textContent = 'ðŸ“± MOBILE';
+                indicator.textContent = '📱 MOBILE';
             } else {
-                indicator.textContent = 'ðŸ’» DESKTOP';
+                indicator.textContent = '💻 DESKTOP';
             }
         }
 
@@ -984,7 +983,7 @@
 
         async function takeScreenshot() {
             const btn = document.querySelector('.screenshot-btn');
-            btn.textContent = 'â³ Capturing...';
+            btn.textContent = '⏳ Capturing...';
             btn.disabled = true;
 
             try {
@@ -999,14 +998,14 @@
                 link.download = 'ph-barbershop-' + new Date().getTime() + '.png';
                 link.click();
 
-                btn.textContent = 'âœ… Captured!';
+                btn.textContent = '✅ Captured!';
                 setTimeout(() => {
-                    btn.textContent = 'ðŸ“¸ SCREENSHOT';
+                    btn.textContent = '📸 SCREENSHOT';
                     btn.disabled = false;
                 }, 2000);
             } catch (error) {
                 alert('Error: ' + error.message);
-                btn.textContent = 'ðŸ“¸ SCREENSHOT';
+                btn.textContent = '📸 SCREENSHOT';
                 btn.disabled = false;
             }
         }
@@ -1031,19 +1030,16 @@
 
         function submitBooking(event) {
             event.preventDefault();
-            alert('âœ… Appointment booked! Check your email for confirmation.');
+            alert('✅ Appointment booked! Check your email for confirmation.');
             document.querySelector('.booking form').reset();
         }
 
         function submitQuickBooking(event) {
             event.preventDefault();
-            alert('âœ… Quick booking sent! We will contact you to confirm.');
+            alert('✅ Quick booking sent! We will contact you to confirm.');
             event.target.reset();
             closeBooking();
         }
     </script>
 </body>
 </html>
-
-
-
